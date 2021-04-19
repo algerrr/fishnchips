@@ -14,7 +14,7 @@ import { MatListModule } from '@angular/material/list';
 import { MenuComponent } from './menu/menu.component';
 import { OrderComponent } from './order/order.component';
 import { HomeComponent } from './home/home.component';
-import { NgxExtendedPdfViewerModule } from "ngx-extended-pdf-viewer";
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 
 @NgModule({
@@ -34,8 +34,8 @@ import { NgxExtendedPdfViewerModule } from "ngx-extended-pdf-viewer";
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
-    MatListModule,,
-    NgxExtendedPdfViewerModule
+    MatListModule,
+    PdfViewerModule
     ],
   providers: [],
   bootstrap: [AppComponent]
