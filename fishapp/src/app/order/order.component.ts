@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./order.component.css']
 })
 export class OrderComponent implements OnInit {
+  pdfSrc = "../assets/qr_code.pdf";
 
   constructor() { }
 

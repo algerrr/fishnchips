@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,8 @@ import { MenuComponent } from './menu/menu.component';
 import { OrderComponent } from './order/order.component';
 import { HomeComponent } from './home/home.component';
 import { PdfViewerModule } from 'ng2-pdf-viewer';
+import { SocialComponent } from './social/social.component';
+import { AirtableComponent } from './airtable/airtable.component';
 
 
 @NgModule({
@@ -23,7 +26,9 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
     FishnavComponent,
     MenuComponent,
     OrderComponent,
-    HomeComponent
+    HomeComponent,
+    SocialComponent,
+    AirtableComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +40,8 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
     MatButtonModule,
     MatIconModule,
     MatListModule,
-    PdfViewerModule
+    PdfViewerModule,
+    HttpClientModule
     ],
   providers: [],
   bootstrap: [AppComponent]

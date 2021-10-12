@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
-  pdfSrc = "https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf";
+  pdfSrc = "../assets/Brigham-FNC.pdf";
+  // pdfSrc = "https://www.wildhorseresort.com/wp-content/uploads/2020/10/2020-Brigham-Fish-N-Chips-Menu-1920x1080final10-6-20.pdf";
 
   constructor() { }
 
